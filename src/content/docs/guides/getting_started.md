@@ -1,6 +1,8 @@
 ---
 title: Getting Started
 description: How to Get started with Catalyst.
+sidebar:
+  order: 100  # Lower numbers appear first
 ---
 
 This guide will show how to get started with Catalyst
