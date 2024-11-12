@@ -4,7 +4,8 @@ command = "npm install && npm run build"
 [build.environment]
 NODE_VERSION = "18"
 
-# Specify the build output directory for Cloudflare Pages
 [site]
 bucket = "./dist"
+
+# This needs to be at the root level, not nested
 pages_build_output_dir = "dist"
