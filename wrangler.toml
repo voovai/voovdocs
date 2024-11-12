@@ -1,2 +1,10 @@
 [build]
 command = "npm install && npm run build"
+
+[build.environment]
+NODE_VERSION = "18"
+
+# Specify the build output directory for Cloudflare Pages
+[site]
+bucket = "./dist"
+pages_build_output_dir = "dist"
