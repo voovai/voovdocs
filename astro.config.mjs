@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Catalyst Docs',
+			customCss: [
+				'./src/styles/custom.css',
+			  ],
 			social: {
 				github: 'https://github.com/voovai/voovdocs',
 			},
