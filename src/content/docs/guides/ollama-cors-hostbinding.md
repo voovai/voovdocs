@@ -5,7 +5,7 @@ sidebar:
   order: 102  # Lower numbers appear first
 ---
 
-If you want to use Ollama local OpenAI compitable API through a browser based tool, you need to allow CORS
+If you would like to use Ollama with Catalyst you need to allow CORS
 
 **Check whether CORS is enabled**
 
